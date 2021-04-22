@@ -1,0 +1,32 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<div class="container mt-2">
+  <div class="row">
+    {% for el in hospitals %}
+     <div class="col-sm">
+            <a class="btn btn-secondary" href="">{{el.name_h}}</a>
+        </div>
+    {% endfor%}
+    </div>
+</div>
+  <div style="font-size:14px; line-height: normal;">
+      <br><br>
+      При возникновении вопросов, связанных с недоступностью талонов на прием к врачу на нашем портале, необходимо обращаться непосредственно в
+      <a class="clinic-address" href="http://mari-el.gov.ru/minzdrav/Pages/jurisdiction.aspx">медицинскую организацию</a>
+      к главному врачу или его заместителю по организационно-методической работе.
+      <br><br>
+      В случае возникновения ошибки авторизации необходимо очистить кеш браузера.
+      <a class="clinic-address" href="https://help.mail.ru/mail-help/helpful/cache" target="_blank">Как это сделать?</a>
+    <br><br>
+    При возникновении ошибок с авторизацией ЕСИА, необходимо обращаться:
+    <br>
+    - в многофункциональный центр <a class="clinic-address" href="https://mfc.mari-el.gov.ru/">«Мои документы»</a> тел. (8362) 32-11-99;
+    <br>
+    - в МИАЦ по адресу support@minzdrav12.ru <br> тел. (8362) 45-00-02.
+  </div>
+{% endblock %}
