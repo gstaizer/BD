@@ -1,12 +1,11 @@
 from django.db import models
 from datetime import datetime
 
-class User(models.Model):
+class User1(models.Model):
     name = models.CharField('Имя', max_length=50)
     surname = models.CharField('Фамилия', max_length=50)
-    login = models.CharField('Логин', max_length=50)
-    email = models.CharField('Эл Почта', max_length=50)
-    password = models.CharField('Пароль', max_length=50)
+    id_registarion = models.IntegerField()
+    avatar = models.ImageField(null=True, blank=True, upload_to="images/")
 
     def __str__(self):
         return self.name
@@ -17,7 +16,7 @@ class User(models.Model):
 
 
 class Notification(models.Model):
-    id_user = models.ForeignKey(User, on_delete=models.CASCADE)
+    id_user = models.ForeignKey(User1, on_delete=models.CASCADE)
     notification_text = models.CharField('Текст уведомления', max_length=50)
 
     def __str__(self):
@@ -71,7 +70,7 @@ class Appointment(models.Model):
     time_to_appointment = models.DateField(("Дата"), default=datetime.today)
     nower = datetime.now()
     name = "Регистрация посещения: " + nower.strftime('%d/%m/%Y')
-    id_user = models.ForeignKey(User, on_delete=models.CASCADE)
+    id_user = models.ForeignKey(User1, on_delete=models.CASCADE)
     id_doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)
     id_review = models.ForeignKey(Review, on_delete=models.CASCADE)
 

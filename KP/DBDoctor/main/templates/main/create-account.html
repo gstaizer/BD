@@ -1,0 +1,28 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Создать сотрудника
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1 class="h2 text-white text-center mt-4 mb-4">Личные данные</h1>
+  <div class="card col-6 p-3 mx-auto">
+    <div class="border border-warning p-5">
+      <form class="form-task" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="text-warning mb-4">Имя
+          {{ form.name }}
+        </div>
+        <div class="text-warning mb-4">Фамилия
+          {{ form.surname }}
+        </div>
+        <div class="text-warning mb-2">Загрузите фотографию</div>
+        {{ form.avatar }}
+        <button type="submit" class="btn btn-success mt-4">Добавить</button>
+        <span>{{ error }}</span>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

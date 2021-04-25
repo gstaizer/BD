@@ -1,4 +1,4 @@
-from .models import User, Notification, Hospital, Review, Doctor, Appointment
+from .models import User1, Notification, Hospital, Review, Doctor, Appointment
 from django.forms import ModelForm, TextInput, Select, DateField
 
 
@@ -24,3 +24,8 @@ class AppointmentForm(ModelForm):
             })
 
         }
+
+class UserForm(ModelForm):
+    class Meta:
+        model = User1
+        fields = ["name", "surname", "avatar"]

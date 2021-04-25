@@ -5,15 +5,13 @@
 {% endblock %}
 
 {% block content %}
-<div class="container mt-2">
-  <div class="row">
-    {% for el in hospitals %}
-     <div class="col-sm">
-            <a class="btn btn-secondary" href="">{{el.name_h}}</a>
-        </div>
-    {% endfor%}
-    </div>
-</div>
+
+<div class="main-section text-center container mt-2">
+    Добро пожаловать на сайт дистанционной записи к врачу Doctor+
+    <br><br>
+    <form class="">
+        <a class="btn btn-success" href="{% url 'create-appointment' %}">Записаться на прием</a>
+    </form>
   <div style="font-size:14px; line-height: normal;">
       <br><br>
       При возникновении вопросов, связанных с недоступностью талонов на прием к врачу на нашем портале, необходимо обращаться непосредственно в
@@ -29,4 +27,5 @@
     <br>
     - в МИАЦ по адресу support@minzdrav12.ru <br> тел. (8362) 45-00-02.
   </div>
+</div>
 {% endblock %}
