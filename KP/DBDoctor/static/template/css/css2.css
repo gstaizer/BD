@@ -1,10 +1,6 @@
 body {
     background-color: #F0FFF0;
 }
-.main {
-    background: url("../image/background-main.jpg") no-repeat center center fixed;
-    background-size: cover;
-}
 .text-warning {
     color: #00cc66 !important;
 }
@@ -87,7 +83,7 @@ a {
 }
 .card {
     border-radius: 0;
-    background-color: #D3D3D3;
+    background-color: #FFFFFF;
 }
 .card h5 {
     color: #00cc66;
@@ -124,20 +120,21 @@ a {
     margin-left: -1px;
     line-height: 1.25;
     color: #00cc66;
-    background-color: #121212;
+    background-color: #FFFFFF;
     border: none;
+    border: 1px solid transparent;
 }
 .page-link:hover {
     color: #00cc66;
-    background-color: #121212;
-    border: 1px solid #00cc66;
+    background-color: #FFFFFF;
+    border-color: #00cc66;
 }
 .page-item.disabled .page-link {
-    color: #121212;
+    color: #FFFFFF;
     pointer-events: none;
     cursor: auto;
-    background-color: #121212;
-    border-color: #121212;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
 }
 .page-num:hover {
     border: none;

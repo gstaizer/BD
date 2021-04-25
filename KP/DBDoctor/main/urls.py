@@ -14,6 +14,11 @@ urlpatterns = [
     path('create-account', views.createacc, name='createacc'),
     path('edit-data', views.edit_data, name='edit-data'),
     path('edit-avatar/', views.edit_avatar,  name='edit-avatar'),
+    path('appointments', views.appointments,  name='appointments'),
+    path('notifications', views.notifications,  name='notifications'),
+    path('delete-notification/<id>', views.delete_notification,  name='delete-notification'),
+    path('doctors', views.doctors,  name='doctors'),
+    path('delete-appointment/<id>', views.delete_appointment, name='delete-appointment'),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,

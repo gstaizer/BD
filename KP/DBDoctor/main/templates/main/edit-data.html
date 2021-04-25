@@ -6,18 +6,18 @@
 
 {% block content %}
 <div class="main-section">
-  <h2 class="text-white text-center my-4">Изменить данные</h2>
+  <h2 class="text-center my-4">Редактировать профиль</h2>
   <div class="shadow p-3 mb-5 bg-white rounded p-5">
     <form method="POST" class="form">
     {% csrf_token %}
     <p class="mb-3">
       <label>Введите имя</label>
-      <input type="text" name="name" value="{{user.name}}"/>
+      <input type="text" name="name" value="{{self_user.name}}"/>
     </p>
 
     <p class="mb-3">
       <label>Введите фамилию</label>
-      <input type="text" name="surname" value="{{user.surname}}"/>
+      <input type="text" name="surname" value="{{self_user.surname}}"/>
     </p>
 
     <input class="btn btn-success" type="submit" value="Сохранить">

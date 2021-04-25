@@ -5,23 +5,24 @@
 {% endblock %}
 
 {% block content %}
-
-    <form method="post">
-        {% csrf_token %}
-        <div class="form-group mb-4">
-        <div class="text-warning mr-4">Доктор</div>
-          <select class="form-control" name="id_doctor" id="id_doctor">
-            {% for el in doctors %}
-            <option value="{{ el.name }}">{{ el.full_name }}</option>
-            <br>
-            {% endfor %}
-          </select><br>
-        <div class="text-warning mr-4">Дата</div>
-        <input class="form-control" type="datetime-local" id="time_to_appointment"><br>
-        <button type="submit" class="btn btn-success">Подтвердить</button>
-        </div><br>
-        <span>{{ error }}</span>
-    </form>
+    <div class="container">
+        <h2 class=" text-center mt-4 mb-4">Запись на прием</h2>
+        <form method="post">
+            {% csrf_token %}
+            <div class="shadow p-3 mb-5 bg-white rounded">
+            <div class="text-warning mr-4">Доктор</div>
+              <select class="form-control" name="id_doctor" id="id_doctor">
+                {% for el in doctors %}
+                <option value="{{ el.name }}">{{ el.full_name }}</option><br>
+                {% endfor %}
+              </select><br>
+            <div class="text-warning mr-4">Дата</div>
+            <input class="form-control" type="date" id="time_to_appointment"><br>
+            <button type="submit" class="btn btn-success">Подтвердить</button>
+            </div><br>
+            <span>{{ error }}</span>
+        </form>
+    </div>
 
 
 {% endblock %}

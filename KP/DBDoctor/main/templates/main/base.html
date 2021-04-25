@@ -26,6 +26,15 @@
               <a class="nav-link" href="{% url 'about' %}">О нас</a>
             </li>
               <li class="nav-item px-4">
+              <a class="nav-link px-0" href="{% url 'doctors' %}">Наши врачи</a>
+             </li>
+             <li class="nav-item px-4">
+              <a class="nav-link px-0" href="{% url 'appointments' %}">Ваши Записи</a>
+             </li>
+              <li class="nav-item px-4">
+              <a class="nav-link px-0" href="{% url 'notifications' %}">Уведомления</a>
+             </li>
+              <li class="nav-item px-4">
               <a class="nav-link px-0" href="{% url 'create-appointment' %}">Записаться на прием</a>
              </li>
               {% if user.is_superuser %}

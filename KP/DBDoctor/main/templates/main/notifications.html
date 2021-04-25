@@ -1,0 +1,78 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  {% if notifications %}
+
+  <div class="d-flex justify-content-between">
+    <form class="form-inline my-2 my-lg-0" action="{% url 'notifications' %}">
+      <select name="order_like" class="mr-2 input-search">
+        <option>Выберите вариант сортировки</option>
+        <option value="notification_text">notification_text A-Z</option>
+        <option value="-notification_text">notification_text Z-A</option>
+      </select>
+      <button class="btn btn-outline-success mu-2 my-sm-0" type="submit">Сортировать</button>
+    </form>
+    <form class="form-inline my-2 my-lg-0" action="{% url 'notifications' %}">
+      <input class="form-control mr-2 input-search" type="search" placeholder="Search" aria-label="Search" name="search">
+      <button class="btn btn-outline-success mu-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+    {% if user_info != "AnonymousUser" %}
+  <div class="accordion mt-4" id="accordionTable">
+    {% for el in notifications %}
+      {% if el.id in list_to_view %}
+    <div class="card text-white">
+      <a class="text-success text-decoration-none" type="button" data-toggle="collapse" data-target="#id{{ el.id }}"
+         aria-expanded="true" aria-controls="collapseOne" href="#">
+        <div class="card-header d-flex justify-content-between">
+            <h5>{{ el.notification_text }}</h5>
+          <a class="btn btn-sm btn-danger ml-2" href="{% url 'delete-notification' el.id %}">Удалить</a>
+        </div>
+      </a>
+    </div>
+      {% endif %}
+  {% endfor %}
+  {% endif %}
+  </div>
+  <nav class="mt-3">
+    <ul class="pagination justify-content-center">
+      {% if notifications.has_previous %}
+      <li class="page-item">
+        <a class="page-link" href="?page={{ notifications.previous_page_number }}" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      {% else %}
+      <li class="page-item disabled">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      {% endif %}
+      <li class="page-item"><span class="page-link page-num" href="#">{{ notifications.number }}</span></li>
+      {% if notifications.has_next %}
+      <li class="page-item">
+        <a class="page-link" href="?page={{ notifications.next_page_number }}" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+      {% else %}
+      <li class="page-item disabled">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+      {% endif %}
+    </ul>
+  </nav>
+  {% else %}
+  <h2 class="text-light text-center mt-5">Список уведомлений пуст!</h2>
+  {% endif %}
+</div>
+<div class="p-5"></div>
+{% endblock %}

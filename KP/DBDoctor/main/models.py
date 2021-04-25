@@ -1,5 +1,5 @@
 from django.db import models
-from datetime import datetime
+from datetime import date, datetime
 
 class User1(models.Model):
     name = models.CharField('Имя', max_length=50)
@@ -73,15 +73,15 @@ class Avatar(models.Model):
         return self.title
 
 class Appointment(models.Model):
-    time_to_appointment = models.DateField(("Дата"), default=datetime.today)
+    time_to_appointment = models.DateField(("Дата"), default=date.today)
     nower = datetime.now()
-    name = "Регистрация посещения: " + nower.strftime('%d/%m/%Y')
+    name_app = "Регистрация посещения: " + nower.strftime('%d/%m/%Y')
     id_user = models.ForeignKey(User1, on_delete=models.CASCADE)
     id_doctor = models.ForeignKey(Doctor, on_delete=models.CASCADE)
     id_review = models.ForeignKey(Review, on_delete=models.CASCADE)
 
     def __str__(self):
-        return self.name
+        return self.name_app
 
     class Meta:
         verbose_name = 'Посещение'
