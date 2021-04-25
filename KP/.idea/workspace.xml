@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af867adb-984c-4747-ae3e-e9999de2b044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/appointments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/doctors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/notifications.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/account/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/account/logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/account/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/account/password_reset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/account/password_set.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/account/password_set.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/main/create-appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/create-appointment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/main/edit-data.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/edit-data.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/main/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/ER.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/full_4g8l51ys.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/orlov_oleg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/working.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/ава_сайт.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/ава_сайт_35ntFIp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/ава_сайт_3FqvswH.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/ава_сайт_85fE9EF.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/ава_сайт_IBM9qZT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/ава_сайт_Jh9Y4cL.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/ава_сайт_SunMAfR.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/ава_сайт_WdP12BO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/ава_сайт_oHtmBuA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/ава_сайт_qLlm2KT.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/ава_сайт_qN28VNn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/аватар.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/паша.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/паша_3vqJznR.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/паша_wPYlbI7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/сайт.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/media/images/сайт_tlkK6w2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/static/template/css/css2.css" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/static/template/css/css2.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DBDoctor/main/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -361,7 +324,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22968581" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -652,8 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DBDoctor/main/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
