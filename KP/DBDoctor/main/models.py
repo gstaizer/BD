@@ -65,6 +65,12 @@ class Doctor(models.Model):
         verbose_name = 'Врач'
         verbose_name_plural = 'Врачи'
 
+class Avatar(models.Model):
+    title = models.CharField('Имя', max_length=10)
+    avatar = models.ImageField(null=True, blank=True, upload_to="images/")
+
+    def __str__(self):
+        return self.title
 
 class Appointment(models.Model):
     time_to_appointment = models.DateField(("Дата"), default=datetime.today)

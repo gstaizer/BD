@@ -1,0 +1,27 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<div class="main-section">
+  <h2 class="text-white text-center my-4">Изменить данные</h2>
+  <div class="shadow p-3 mb-5 bg-white rounded p-5">
+    <form method="POST" class="form">
+    {% csrf_token %}
+    <p class="mb-3">
+      <label>Введите имя</label>
+      <input type="text" name="name" value="{{user.name}}"/>
+    </p>
+
+    <p class="mb-3">
+      <label>Введите фамилию</label>
+      <input type="text" name="surname" value="{{user.surname}}"/>
+    </p>
+
+    <input class="btn btn-success" type="submit" value="Сохранить">
+  </form>
+  </div>
+</div>
+{% endblock %}

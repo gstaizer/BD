@@ -5,7 +5,7 @@
 {% block title %}{% trans "Signup" %}{% endblock %}
 
 {% block content %}
-<div class="main-section form-block">
+<div class="main-section form-block shadow p-3 mb-5 bg-white rounded">
     <h2 class="text-success">{% trans "Sign Up" %}</h2>
     <form class="form" id="signup_form" method="post" action="{% url 'account_signup' %}">
         {% csrf_token %}
@@ -15,7 +15,7 @@
         {% endif %}
         <button class="btn btn-success mt-2" type="submit">{% trans "Sign Up" %} &raquo;</button>
     </form>
-    <p class="mt-2">{% blocktrans %}Уже зарегистрированы? <a class="text-success text-decoration-none" href="{{ login_url }}">Войдите.</a>{% endblocktrans %}
+    <p class="mt-2">{% blocktrans %}Уже зарегистрированы? <a class="text-decoration-none" href="{{ login_url }}">Войдите.</a>{% endblocktrans %}
     </p>
 </div>
 {% endblock %}

@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af867adb-984c-4747-ae3e-e9999de2b044" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/123.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/edit-avatar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/edit-data.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/DBDoctor/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/DBDoctor/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/DBDoctor/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/DBDoctor/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DBDoctor/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBDoctor/main/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DBDoctor/main/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DBDoctor/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/account/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/account/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/account/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/account/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/account/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/main/create-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/create-account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/main/create-appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/create-appointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBDoctor/main/templates/main/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/templates/main/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DBDoctor/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DBDoctor/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DBDoctor/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DBDoctor/static/template/css/main.css" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,19 +30,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/socialaccount/authentication_error.html">
+        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="272">
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/password_set.html">
+        <entry file="file://$PROJECT_DIR$/DBDoctor/static/template/css/css2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/edit-avatar.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/edit-data.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -43,23 +68,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="-153">
+              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/socialaccount/base.html">
+        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/create-account.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
@@ -68,38 +84,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/socialaccount/login_cancelled.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/socialaccount/signup.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/create-appointment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/signup.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="68" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DBDoctor/main/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/socialaccount/connections.html">
+        <entry file="file://$PROJECT_DIR$/DBDoctor/main/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/logout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="595">
+              <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,8 +130,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -120,7 +141,17 @@
       <find>user</find>
       <find>Client</find>
       <find>warning</find>
+      <find>0dff7e</find>
+      <find>createacc</find>
+      <find>FFD50D</find>
+      <find>dinamik-title</find>
+      <find>.navbar</find>
+      <find>1</find>
+      <find>avatar</find>
     </findStrings>
+    <replaceStrings>
+      <replace>00cc66</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -130,26 +161,33 @@
       <list>
         <option value="$PROJECT_DIR$/DBDoctor/main/migrations/urls.py" />
         <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/appointment-list.html" />
-        <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/create-appointment.html" />
-        <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/create-account.html" />
         <option value="$PROJECT_DIR$/DBDoctor/DBDoctor/urls.py" />
-        <option value="$PROJECT_DIR$/DBDoctor/main/urls.py" />
         <option value="$PROJECT_DIR$/DBDoctor/DBDoctor/settings.py" />
-        <option value="$PROJECT_DIR$/DBDoctor/main/models.py" />
-        <option value="$PROJECT_DIR$/DBDoctor/main/views.py" />
-        <option value="$PROJECT_DIR$/DBDoctor/main/forms.py" />
-        <option value="$PROJECT_DIR$/DBDoctor/main/admin.py" />
-        <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/profile.html" />
         <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/index.html" />
-        <option value="$PROJECT_DIR$/DBDoctor/main/templates/account/login.html" />
         <option value="$PROJECT_DIR$/DBDoctor/main/templates/account/logout.html" />
-        <option value="$PROJECT_DIR$/DBDoctor/main/templates/account/signup.html" />
-        <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/base.html" />
         <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/about.html" />
+        <option value="$PROJECT_DIR$/DBDoctor/static/template/css/main.css" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/templates/account/signup.html" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/templates/account/login.html" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/templates/account/base.html" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/apps.py" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/create-account.html" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/edit_data.html" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/edit-data.html" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/edit-avatar.html" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/urls.py" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/models.py" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/admin.py" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/forms.py" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/profile.html" />
+        <option value="$PROJECT_DIR$/DBDoctor/static/template/css/css2.css" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/base.html" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/views.py" />
+        <option value="$PROJECT_DIR$/DBDoctor/main/templates/main/create-appointment.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -174,12 +212,6 @@
             <path>
               <item name="KP" type="b2602c69:ProjectViewProjectNode" />
               <item name="KP" type="462c0819:PsiDirectoryNode" />
-              <item name="DBDoctor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KP" type="462c0819:PsiDirectoryNode" />
-              <item name="DBDoctor" type="462c0819:PsiDirectoryNode" />
               <item name="DBDoctor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -215,14 +247,6 @@
               <item name="KP" type="b2602c69:ProjectViewProjectNode" />
               <item name="KP" type="462c0819:PsiDirectoryNode" />
               <item name="DBDoctor" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="socialaccount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KP" type="462c0819:PsiDirectoryNode" />
-              <item name="DBDoctor" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -236,20 +260,6 @@
               <item name="KP" type="462c0819:PsiDirectoryNode" />
               <item name="DBDoctor" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KP" type="462c0819:PsiDirectoryNode" />
-              <item name="DBDoctor" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="grappelli" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KP" type="462c0819:PsiDirectoryNode" />
-              <item name="DBDoctor" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -258,15 +268,7 @@
               <item name="DBDoctor" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KP" type="462c0819:PsiDirectoryNode" />
-              <item name="DBDoctor" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,6 +279,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -316,7 +319,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14120126" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14120126" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -327,7 +330,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22968581" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22968581" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -342,276 +345,18 @@
           <url>file://$PROJECT_DIR$/DBDoctor/main/views.py</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DBDoctor/main/models.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/openid/base.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/openid/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/create-account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/KP/Lib/site-packages/django/contrib/staticfiles/storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/DBDoctor/asgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#224#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/DBDoctor/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/DBDoctor/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="141" column="20" lean-forward="true" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="20" />
-          <folding>
-            <element signature="e#307#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/static/grappelli/images/backgrounds/changelist-results.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/static/grappelli/images/backgrounds/loading-small.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/static/grappelli/images/backgrounds/messagelist.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/static/grappelli/images/backgrounds/nav-grabber.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/static/grappelli/images/backgrounds/ui-sortable-placeholder.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/static/grappelli/images/icons-s79f97b581c.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/static/grappelli/images/icons-small-sf6f04fa616.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/static/grappelli/images/icons/add-another_hover.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/static/grappelli/images/icons/add-another.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/static/grappelli/images/icons/back-link-rtl_hover.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/static/grappelli/images/icons/breadcrumbs-rtl_hover.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/static/grappelli/images/icons/related-lookup-m2m_hover.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/email_confirm.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/password_change.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/password_reset.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/password_reset_done.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/password_reset_from_key.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/password_reset_from_key_done.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/signup_closed.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/verification_sent.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/verified_email_required.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/account_inactive.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/password_set.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/socialaccount/authentication_error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/socialaccount/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/socialaccount/connections.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/socialaccount/login_cancelled.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/socialaccount/signup.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/logout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="55" column="56" selection-start-line="55" selection-start-column="56" selection-end-line="55" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -622,5 +367,268 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/password_change.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/autocomplete.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/changelists.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/dashboard.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/forms.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/login.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/nav_sidebar.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/template/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/responsive_rtl.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/rtl.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/widgets.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/vendor/select2/LICENSE-SELECT2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/vendor/select2/select2.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/admin/css/vendor/select2/select2.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/template/image/doctor+mini.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/template/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/media/images/full_4g8l51ys.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/media/images/orlov_oleg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/media/images/сайт_tlkK6w2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/password_set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/password_reset_from_key_done.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/snippets/already_logged_in.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/KP/Lib/site-packages/django/db/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/verified_email_required.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/verification_sent.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/signup_closed.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/appointment-list.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="96" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="77" column="46" lean-forward="true" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/email.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/static/template/css/css2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/account/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/create-account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/create-appointment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/edit-avatar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBDoctor/main/templates/main/edit-data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

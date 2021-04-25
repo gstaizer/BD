@@ -7,39 +7,33 @@
 {% block content %}
 <div class="container">
   <h2 class="text-white text-center my-4">{{ title }}</h2>
-  <div class="card p-3">
-    <div class="d-flex border border-warning p-5">
+  <div class="p-3">
+    <div class="d-flex border border-success p-5">
       <div>
-        <img class="avatar-profile" src="{{ self_human.avatar.url }}" alt="avatar">
-        <a class="text-warning text-decoration-none d-block text-center mt-2" href="edit_avatar">Изменить аватар</a>
+        <img class="avatar-profile" src="{{ self_user.avatar.url }}" alt="avatar">
+        <a class="text-success text-decoration-none d-block text-center mt-2" href="edit-avatar">Изменить аватар</a>
       </div>
-      <div class="text-white ml-4">
+      <div class="ml-4">
         <div class="mb-2 d-flex title-profile">
           <div class="dinamik-title">{{ request.user.username }}</div>
         </div>
         <div class="mb-2 d-flex title-profile">
-          <div class="dinamik-title">{{ self_human.first_name }} <span class="ml-2">{{ self_human.second_name }}</span>
+          <div class="dinamik-title">{{ self_user.name }} <span class="ml-2">{{ self_user.surname }}</span>
           </div>
-        </div>
-        <div class="mb-2 d-flex title-profile">
-          <div class="dinamik-title">{{ self_human.id_branch }}</div>
         </div>
         <div class="mb-2 d-flex title-profile">
           <div class="dinamik-title">{{ request.user.email }}</div>
         </div>
-        <div class="mb-2 d-flex title-profile">
-          <div class="dinamik-title">{{ self_team }}</div>
-        </div>
-        <a class="text-warning text-decoration-none" href="edit_data">Редактировать данные</a>
+        <a class="text-success text-decoration-none" href="edit-data">Редактировать данные</a>
       </div>
     </div>
   </div>
-  <h4 class="text-white text-center mt-4 mb-4">Записи пользователя</h4>
+  <h4 class="text-center mt-4 mb-4">Записи пользователя</h4>
   <div class="accordion mt-4" id="accordionTable">
     {% for el in Appointments %}
     {% if user_info == el.id_performing_person %}
-    <div class="card text-white">
-      <a class="text-white text-decoration-none" type="button" data-toggle="collapse" data-target="#id{{ el.id }}"
+    <div class="card">
+      <a class="text-decoration-none" type="button" data-toggle="collapse" data-target="#id{{ el.id }}"
          aria-expanded="true" aria-controls="collapseOne" href="#">
         <div class="card-header d-flex justify-content-between">
           <h5>{{ el.title }}</h5>
@@ -61,7 +55,7 @@
                 <p class="ml-3">{{ el.description }}</p>
               </div>
               {% if el.id_person == user_info or user_info == "user"%}
-              <a class="text-warning text-decoration-none" href="edit/{{el.id}}">Изменить</a>
+              <a class="text-success text-decoration-none" href="edit/{{el.id}}">Изменить</a>
               {% endif %}
             </div>
             <div class="d-flex justify-content-end subtitle-task mb-2">
@@ -71,7 +65,7 @@
           </div>
           <div class="d-flex mt-2 justify-content-between">
             <div class="d-flex">
-              <span class="text-warning">Исполнитель:</span>
+              <span class="text-success">Исполнитель:</span>
               <span class="ml-2">{{ el.id_performing_person }}</span>
             </div>
             <div class="d-flex">
